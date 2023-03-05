@@ -1,0 +1,41 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap";
+body{margin:0;overflow-x:hidden}
+header{display:flex;align-items:center}
+.tittle{font-size:40px;font-family:'Poppins',sans-serif;margin-left:80px}
+.abas{transform:translate(700px)}
+.aba{font-family:'Poppins',sans-serif;font-weight:500;text-decoration:none;margin:30px;color:#000}
+.home::before{position:absolute;content:"";width:0;height:3px;background-color:#000;transition:all .3s}
+.home:hover::before{width:48px}
+.duvidas::before{position:absolute;content:"";width:0;height:3px;background-color:#000;transition:all .3s}
+.duvidas:hover::before{width:65px}
+.recursos::before{position:absolute;content:"";width:0;height:3px;background-color:#000;transition:all .3s}
+.recursos:hover::before{width:73px}
+.whatsapp{color:#fff;padding:10px;padding-left:20px;padding-right:20px;border-radius:50px;background-color:#6c178d;transition:all.7s}
+.whatsapp:hover{animation:bg 5s ease infinite}
+@keyframes bg {
+50%{background-position:50%;background-color:#39d841}
+200%{background-position:100%;background-color:#39d841}
+}
+.imagem{position:absolute;transform:translate(530px,50px);scale:1.4;pointer-events:none;z-index:2}
+.fundo{position:absolute;scale:1.7;transform:translate(430px,40px) rotateY(20deg);z-index:-1;pointer-events:none}
+.tittle-viagem{position:absolute;font-family:'Poppins',sans-serif;text-decoration:none;font-weight:700;font-size:100px;transform:translate(100px,190px);color:#6c178d;border:7px solid #6c178d;padding-left:70px;padding-right:70px;border-radius:100px;transition:all .3s}
+.subtittle-viagem{position:absolute;font-family:'Poppins',sans-serif;font-weight:600;font-size:23px;transform:translate(340px,180px);padding-left:20px;padding-right:20px;background-color:#fff;z-index:1;border-radius:30px}
+.zero{height:650px}
+.um{display:flex;height:700px}
+.sitio-img{width:300px;transition:all .5s}
+.cards{width:90%;height:570px;margin-bottom:3%;margin-left:5%;margin-right:5%;display:flex}
+.card-casa{position:relative;width:330px;height:470px;border-radius:30px;box-shadow:0 5px 20px rgba(0,0,0,0.3);overflow:hidden;transition:all .5s;cursor:pointer;text-decoration:none}
+.traço-fundo{width:100px;height:100px;background-color:#6c178d;content:"";height:500px;width:300px;transform:rotate(60deg) translate(-250px,-100px);position:absolute;pointer-events:none;transition:all .4s}
+.card-casa:hover{scale:1.1}
+.card-casa:hover .traço-fundo{transform:rotate(110deg) translate(-250px,0px)}
+.card-img{margin-left:4.5%;filter:saturate(1.3);margin-top:10%;width:300px;height:170px;background-color:gray;border-radius:20px;overflow:hidden}
+.card-casa:hover .sitio-img{scale:1.1}
+.nome-sitio{font-family:'Poppins',sans-serif;font-weight:600;margin-left:6%;font-size:20px;text-decoration:none;transition:all .5s}
+.card-casa:hover li{opacity:0}
+.ver-casa{position:absolute;width:250px;height:40px;margin-left:13%;border-radius:20px;color:#fff;font-family:'Poppins',sans-serif;font-weight:600;font-size:15px;background-color:#6c178d;border:none;bottom:-50px;transition:all .5s;cursor:pointer}
+.card-casa:hover .ver-casa{bottom:30px}
+.card-casa:hover .nome-sitio{margin-left:20%}
+a{text-decoration:none;color:#000}
+.descrição{width:270px;font-family:'Poppins',sans-serif;font-size:10px;font-weight:500;margin-left:6%}
+li{font-family:'Poppins',sans-serif;font-weight:500;color:gray;font-size:15px;list-style-type:none;position:relative;transition:all .25s}
+li::before{content:'\2713';display:inline-block;width:1em;height:1em;position:absolute;left:-1.5em;font-weight:900}
