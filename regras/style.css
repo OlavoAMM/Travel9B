@@ -357,7 +357,7 @@ header{display:flex;align-items:center; }
 @media only screen and (max-width: 915px) {
 
     .regra{
-        width: 80vw;
+        width: 77.3vw;
     }
 
     .número-regra{
@@ -543,6 +543,10 @@ header{
 }
 @media only screen and (max-width: 625px){
 
+    .regra{
+        font-size: 12px;
+    }
+
     .tittle-viagem{
         scale: 0.8;
         width: 480px;
@@ -619,7 +623,7 @@ header{
 @media only screen and (max-width: 535px){
 
     .regra{
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .abas{
@@ -677,6 +681,10 @@ header{
 
 
 @media only screen and (max-width: 490px){
+
+    .regra{
+        width: 76.7vw;
+    }
 
     .tittle-regra{
         font-size: 80px;
@@ -806,6 +814,8 @@ header{
 
 @media only screen and (max-width: 402px) {
 
+
+    
     .regra{
         font-size: 11px;
     }
@@ -842,6 +852,10 @@ header{
   }
 
   @media only screen and (max-width: 392px){
+
+    .regra{
+        width: 76vw;
+    }
 
     .tittle-viagem{
         scale: 0.58;
@@ -901,6 +915,10 @@ header{
 
   @media only screen and (max-width: 367px){
 
+    .regra{
+        font-size: 10px;
+    }
+
     .tittle-regra{
         font-size: 50px;
         margin-top: 25%;
@@ -954,6 +972,11 @@ header{
     }
   }
   @media only screen and (max-width: 337px){
+    
+    .regra{
+        width: 75.6vw;
+    }
+    
     .aba{
         margin: 20px;
     }
