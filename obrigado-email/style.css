@@ -1,0 +1,227 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap";
+
+body{
+    animation: bg 5s infinite alternate ease;
+    margin: 0;
+    height: 3000vh;
+    overflow: hidden;
+    background-image: linear-gradient(to top left, #6817ff, 20%, #6c178d);
+}
+
+@keyframes bg{
+
+    from{
+    background-position: 50% 0%;
+    
+    }
+    to{
+        background-position: 100% 50%;
+    }
+    
+    }
+
+h1{
+    font-family:'Poppins',sans-serif;
+    font-size: 170px;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    
+}
+
+
+h3{
+    font-family:'Poppins',sans-serif;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -11%;
+}
+
+.button {
+    position: relative; /* adiciona posicionamento relativo para o elemento pai */
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center; /* centraliza verticalmente */
+    margin-top: 5%;
+  }
+  
+  .voltar {
+    position: absolute; /* adiciona posicionamento absoluto para o elemento filho */
+    
+    width: 150px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border: solid white;
+    border-radius: 30px;
+  }
+
+  .aqui{
+    position: absolute;
+    margin-top: 15%;
+    color: white;
+  }
+
+
+  @media only screen and (max-width: 2710px){
+    h3{
+        margin-top: -6%;
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 1510px){
+    h3{
+        margin-top: -10%;
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 1241px){
+    h3{
+        margin-top: -13%;
+    }
+  }
+
+  @media only screen and (max-width: 981px){
+
+    h1{
+        font-size: 120px;
+    }
+
+    h3{
+        margin-top: -14%;
+    }
+  }
+
+  @media only screen and (max-width: 691px){
+
+    h1{
+        font-size: 110px;
+    }
+
+    h3{
+        margin-top: -16%;
+        font-size: 18px;
+    }
+
+    .button{
+        margin-top: 7%;
+    }
+  }
+
+  
+  @media only screen and (max-width: 621px){
+
+    h1{
+        font-size: 100px;
+    }
+
+    h3{
+        margin-top: -16%;
+        font-size: 15px;
+    }
+
+    .button{
+        margin-top: 7%;
+    }
+  }
+
+
+  @media only screen and (max-width: 571px){
+
+    h1{
+        font-size: 90px;
+    }
+
+    h3{
+        margin-top: -16%;
+        font-size: 15px;
+    }
+
+    .button{
+        margin-top: 7%;
+    }
+
+    .voltar{
+        padding: 7px;
+    }
+  }
+  
+  @media only screen and (max-width: 510px){
+
+    h1{
+        margin-top: 50%;
+        font-size: 75px;
+    }
+
+    h3{
+        margin-top: -16%;
+        font-size: 13px;
+    }
+
+    .button{
+        margin-top: 7%;
+    }
+  }
+
+  @media only screen and (max-width: 420px){
+
+    h1{
+        margin-top: 50%;
+        font-size: 65px;
+    }
+
+    h3{
+        margin-top: -16%;
+        font-size: 13px;
+    }
+
+    .button{
+        margin-top: 7%;
+        scale: 0.8;
+    }
+  }
+
+  @media only screen and (max-width: 375px){
+
+    h1{
+        margin-top: 50%;
+        font-size: 55px;
+    }
+
+    h3{
+        margin-top: -16%;
+        font-size: 13px;
+    }
+
+    .button{
+        margin-top: 7%;
+        scale: 0.8;
+    }
+  }
+
+  @media only screen and (max-width: 315px){
+
+    h1{
+        margin-top: 50%;
+        font-size: 50px;
+    }
+
+    h3{
+        margin-top: -16%;
+        font-size: 11px;
+    }
+
+    .button{
+        margin-top: 7%;
+        scale: 0.7;
+    }
+  }

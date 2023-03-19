@@ -88,18 +88,18 @@ header{display:flex;align-items:center; }
     display:none;
     align-items:center;
     justify-content:center;
-    max-width:694px;
+    max-width:684px;
     margin:0 auto;
     padding:0;
     text-align:justify;
     font-size:15px;
     height:100px;
     background-color:#fff;
-    padding:11px;
+    padding:16px;
     border-bottom-right-radius:30px;
     border-bottom-left-radius:30px;
     box-shadow:5px 0 20px rgba(0,0,0,0.3);
-    text-align:center;
+    direction: ltr;
     transition:all .3s;
    
 }

@@ -48,8 +48,8 @@ footer{height:300px;background-image:linear-gradient(to top left,#470f5e,#6c178d
 .email::placeholder{color:#fff;font-family:'Poppins',sans-serif;font-weight:600}
 .nome{margin-top:5%;height:40px;width:400px;background-color:transparent;outline:none;border:none;border-bottom:3px solid #fff;color:#fff}
 .nome::placeholder{color:#fff;font-family:'Poppins',sans-serif;font-weight:600}
-.value{margin-top:5%;height:40px;width:405px;background-color:transparent;outline:none;border:none;border-radius:50px;background-color:#fff;color:#6c178d;font-family:'Poppins',sans-serif;font-weight:600}
-.enviol{margin-top:5%;font-family:'Poppins',sans-serif;font-weight:600;font-size:30px;color:#fff;transform:translate(430px,30px)}
+.value{cursor: pointer; margin-top:5%;height:40px;width:405px;background-color:transparent;outline:none;border:none;border-radius:50px;background-color:#fff;color:#6c178d;font-family:'Poppins',sans-serif;font-weight:600}
+.enviol{ margin-top:5%;font-family:'Poppins',sans-serif;font-weight:600;font-size:30px;color:#fff;transform:translate(430px,30px)}
 .tres-barras{
     position: absolute;
     top: 40px;

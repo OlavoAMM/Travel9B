@@ -65,11 +65,14 @@
     </section>
 <footer>
     
-    <form action="" class="envio">
+    <form action="https://formsubmit.co/jameviuolavo@gmail.com" method="POST" class="envio">
         <label for="email" class="enviol">Envie sua dúvida:</label><br>
-        <input type="email" placeholder="Email" class="email"><br>
-        <input type="text" placeholder="Texto" class="nome"><br>
+        <input type="email" placeholder="Email" class="email" name="email" required><br>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="box">
+        <input type="text" placeholder="Texto" class="nome" name="texto" required><br>
         <input type="submit" value="Enviar" class="value">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado-email/index.html">
     </form>
 </footer>
 
