@@ -57,6 +57,9 @@ section{height: 680px;}
     transition: all .3s;
 }
 
+.clique-aqui{
+    margin-left: 1%;
+}
 
 
 
@@ -157,6 +160,11 @@ header{
 .resposta{
     font-size: 13px;
 }
+
+.tittle{
+    display: none;
+}
+
 }
 
 @media only screen and (max-width: 502px){

@@ -297,7 +297,7 @@ footer{height:300px;background-image:linear-gradient(to top left,#470f5e,#6c178d
 
     .subtittle-viagem{
         scale: 0.85;
-        transform: translate(290px, 190px);
+        transform: translate(270px, 190px);
     }
 
     .card{
@@ -422,6 +422,10 @@ footer{height:300px;background-image:linear-gradient(to top left,#470f5e,#6c178d
      
     }
 
+    .card{
+        right: 80px;
+    }
+
     .mapa{
         width: 520px;
         height: 300px;
@@ -479,7 +483,7 @@ header{
 }
 .subtittle-viagem{
     scale: 0.8;
-    transform: translate(310px, 195px);
+    transform: translate(280px, 195px);
 }
 
 
@@ -512,12 +516,12 @@ header{
     }
     .subtittle-viagem{
         scale: 0.8;
-        transform: translate(300px, 195px);
+        transform: translate(270px, 200px);
     }
 
     .card{
-        scale: 0.8;
-        right: 3%;
+        scale: 1;
+        right: 20px;
     }
 
     .tittle-mapa{
@@ -545,6 +549,38 @@ header{
 
 }
 
+@media only screen and (max-width: 565px){
+    .card{
+        scale: 0.97;
+        right: 4px;
+    }
+    
+    .tittle-viagem{
+        scale: 0.8;
+        width: 480px;
+        transform: translate(-50px, 195px);
+    }
+    .subtittle-viagem{
+        scale: 0.8;
+        transform: translate(230px, 200px);
+    }
+    
+    .mapa{
+       right: 80px;
+
+    }
+
+    .container-local{
+      right: 60px;
+      scale: 1.05;
+    }
+
+    .envio{
+        transform: translate(120px, 20px);
+        scale: 1;
+    }
+}
+
 
 @media only screen and (max-width: 535px){
     .abas{
@@ -565,7 +601,7 @@ header{
     }
     .subtittle-viagem{
         scale: 0.8;
-        transform: translate(260px, 185px);
+        transform: translate(220px, 185px);
     }
 
     .card{
@@ -610,7 +646,7 @@ header{
     }
     .subtittle-viagem{
         scale: 0.7;
-        transform: translate(240px, 195px);
+        transform: translate(200px, 195px);
     }
 
     .card{
@@ -628,12 +664,12 @@ header{
     .mapa{
         width: 370px;
         height: 300px;
-        transform: translate(60px, 100px);
+        transform: translate(30px, 100px);
 
     }
 
     .container-local{
-        transform: translate(48px, 90px);
+        transform: translate(18px, 90px);
         width: 390px;
         height: 310px;
     }
@@ -659,11 +695,11 @@ header{
     .tittle-viagem{
         scale: 0.6;
         width: 480px;
-        transform: translate(-160px, 180px);
+        transform: translate(-180px, 180px);
     }
     .subtittle-viagem{
         scale: 0.6;
-        transform: translate(240px, 210px);
+        transform: translate(180px, 210px);
     }
 
     .tittleD{
@@ -683,10 +719,10 @@ header{
     }
 
     .card{
-        scale: 0.7;
-        right: -65px;
+        scale: 0.8;
+        right: -35px;
         margin-top: -50%;
-      
+        width: 500px;
     }
 
     
@@ -695,15 +731,24 @@ header{
         margin-top: -67%;
     }
 
+
+    .lerMais{
+        margin-left: 350px;
+    }
+
+    .lerMenos{
+        margin-left: 350px;
+    }
+
     .mapa{
         width: 220px;
         height: 300px;
-        transform: translate(100px, 100px);
+        transform: translate(-10px, 100px);
 
     }
 
     .container-local{
-        transform: translate(85px, 90px);
+        transform: translate(-19px, 90px);
         width: 240px;
         height: 310px;
     }
@@ -727,9 +772,10 @@ header{
     }
 
     .card{
-        scale: 0.65;
-        right: -75px;
+        scale: 0.8;
+        right: -55px;
         margin-top: -60%;
+        width: 500px;
       
     }
 
@@ -740,7 +786,7 @@ header{
     }
     .subtittle-viagem{
         scale: 0.6;
-        transform: translate(220px, 210px);
+        transform: translate(170px, 210px);
     }
 
     .tittle{
@@ -757,15 +803,29 @@ header{
     }
     .subtittle-viagem{
         scale: 0.58;
-        transform: translate(220px, 218px);
+        transform: translate(170px, 218px);
     }
 
     .card{
-        scale: 0.55;
-        right: -87px;
+        scale: 0.8;
+        right: -35px;
         margin-top: -90%;
+        width: 450px;
+        height: 550px;
+        
       
     }
+
+    .lerMais{
+        margin-left: 300px ;
+        font-size: 20px;
+    }
+
+    .lerMenos{
+            margin-left: 300px ;
+            font-size: 20px;
+    }
+   
 
     .tittle-mapa{
         font-size: 30px;
@@ -775,12 +835,12 @@ header{
     .mapa{
         width: 240px;
         height: 300px;
-        transform: translate(80px, 100px);
+        transform: translate(7px, 100px);
 
     }
 
     .container-local{
-        transform: translate(65px, 90px);
+        transform: translate(-1px, 90px);
         width: 260px;
         height: 310px;
     }
@@ -794,9 +854,19 @@ header{
 
   @media only screen and (max-width: 367px){
     .card{
-        right: -100px;
+        scale: 0.75;
+        right: -50px;
+        width: 450px;
+        height: 550px;
     }
 
+    .lerMais{
+        margin-left: 300px;
+    }
+
+    .lerMenos{
+        margin-left: 300px;
+    }
     .tittle-viagem{
         scale: 0.5;
         width: 480px;
@@ -844,7 +914,8 @@ header{
     }
 
     .card{
-        right: -115px;
+        scale: 0.7;
+        right: -59px;
     }
 
     .tittle-viagem{
@@ -854,7 +925,7 @@ header{
     }
     .subtittle-viagem{
         scale: 0.5;
-        transform: translate(180px, 238px);
+        transform: translate(130px, 238px);
     }
 
     
@@ -904,5 +975,25 @@ header{
     .subtittleD{
         transform: translate(0px,34px);
         font-size: 11px;
+    }
+
+    .card{
+        
+        scale: 0.65;
+        right: -75px;
+    }
+
+    .tittle-viagem{
+        scale: 0.47;
+        width: 480px;
+        transform: translate(-350px, 180px);
+    }
+    .subtittle-viagem{
+        scale: 0.5;
+        transform: translate(110px, 238px);
+    }
+    
+    .zero{
+        height: 600px;
     }
   }
